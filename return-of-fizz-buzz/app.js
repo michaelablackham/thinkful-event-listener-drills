@@ -23,7 +23,7 @@ function fizzBuzzVal(input) {
 //create an array of numbers from 1 => innput value
 function makeArray(input) {
   var counter = [];
-  for (i=1; i<input; i++) {
+  for (i=1; i<=input; i++) {
     counter.push(fizzBuzzVal(fizzBuzzVal(i)));
   }
   return counter;
